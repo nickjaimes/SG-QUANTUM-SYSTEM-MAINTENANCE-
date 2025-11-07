@@ -1,0 +1,11 @@
+# Run comprehensive maintenance tests
+pytest tests/test_maintenance_core.py
+
+# Test optimization algorithms
+pytest tests/test_optimization.py
+
+# Security protocol testing
+pytest tests/test_security.py
+
+# Performance benchmarking
+python -m safeway_guardian.testing.performance_benchmark
