@@ -1,0 +1,4 @@
+from safeway_guardian.examples import enterprise_infrastructure
+
+enterprise_manager = enterprise_infrastructure.EnterpriseMaintenance()
+infrastructure_health = enterprise_manager.manage_data_center()
