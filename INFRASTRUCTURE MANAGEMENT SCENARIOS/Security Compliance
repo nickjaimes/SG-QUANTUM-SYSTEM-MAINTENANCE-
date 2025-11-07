@@ -1,0 +1,4 @@
+from safeway_guardian.examples import security_compliance
+
+compliance_manager = security_compliance.SecurityComplianceEngine()
+compliance_report = compliance_manager.audit_security_compliance()
