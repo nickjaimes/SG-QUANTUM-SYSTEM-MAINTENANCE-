@@ -1,0 +1,4 @@
+from safeway_guardian.examples import cloud_optimization
+
+cloud_optimizer = cloud_optimization.CloudMaintenanceManager()
+optimization_report = cloud_optimizer.optimize_cloud_resources()
